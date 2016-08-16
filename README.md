@@ -12,14 +12,14 @@ $ pip install -U rusted
 Simply pipe `rustc --explain` output to `rusted`:
 
 ```bash
-$ rustc --explain E0308 | rusted
+$ rustc --explain E0502| rusted
 ```
 
-**Before (Just execute `rustc --explain E0308`)**:
+**Before (Just execute `rustc --explain E0502`)**:
 
 ![Before](artwork/before.png)
 
-**After (Execute `rustc --explain E0308 | rusted`)**:
+**After (Execute `rustc --explain E0502 | rusted`)**:
 
 ![After](artwork/after.png)
 
